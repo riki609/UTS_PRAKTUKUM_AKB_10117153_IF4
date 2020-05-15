@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorNavigationIcon">#dae9f6</color>
+    <color name="colorNavigationText">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="azure">#007FFF</color>
+    <color name="AquaDanon">#40B4E7</color>
+    <color name="whitethree">#f3f3f3</color>
+
+    <!-- colors for button style -->
+
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient__end_color">#10a3fe</color>
+
+
+    <!-- colors for tab and screen text -->
+
+    <color name="tab_indicator_gray">#c0c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+</resources>

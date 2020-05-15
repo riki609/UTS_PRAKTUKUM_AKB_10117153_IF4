@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/home_img"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/header"
+        android:scaleType="fitXY"
+        android:baseline="5dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/colorNavigationText"
+        android:layout_below="@+id/home_img" />
+
+    <ImageView
+        android:id="@+id/home_img_profile"
+        android:layout_width="102dp"
+        android:layout_height="99dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/logo_profile"
+        android:scaleType="centerInside"
+        android:src="@drawable/fotosaya" />
+    <TextView
+        android:id="@+id/home_tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NamaSendiri"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/AquaDanon"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/home_img_profile" />
+    <TextView
+        android:id="@+id/home_tv_tentangdiri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TentangDiri"
+        android:gravity="center"
+        android:layout_below="@+id/home_tv_nama" />
+    <View
+        android:id="@+id/View1"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/whitethree"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/home_tv_tentangdiri" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:gravity="left"
+        android:text="Nama Panggilan : Rikiw" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="368dp"
+        android:gravity="left"
+        android:text="Alamat : Kp. Kamasan RT/RW 06/06 Des. Kasaman Kec. Banjaran Kab. Bandung, 40377 " />
+
+</RelativeLayout>
